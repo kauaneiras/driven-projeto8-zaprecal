@@ -1,0 +1,22 @@
+.cards {
+    width: 85%;
+    min-height: 65px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cards h1 {
+    font-family: Recursive;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}

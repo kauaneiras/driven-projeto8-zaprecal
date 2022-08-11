@@ -1,0 +1,170 @@
+body {
+    background-color: #FB6B6B;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.flashcards {
+    width: 100vw;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 85%;
+    min-height: 65px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card h1 {
+    font-family: Recursive;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+ion-icon {
+    font-size: 30px;
+}
+
+.answer {
+    width: 85%;
+    min-height: 120px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.answer p {
+    font-family: Recursive;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #333333;
+}
+
+.resultcolor {
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.resultcolor p {
+    width: 31%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultcolor .red {
+    background-color: #FF3030;
+}
+
+.resultcolor .orange {
+    background-color: #FF922E;
+}
+
+.resultcolor .green {
+    background-color: #2FBE34;
+}
+
+
+footer {
+    width: 100vw;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer h1 {
+    font-family: Recursive;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#333333;
+}
+
+footer .icons {
+    max-width: 85%;
+    overflow: hidden;
+    display: flex;
+    margin: 3px;
+}
+
+footer .red {
+    text-decoration: line-through;
+    color: red;
+}
+
+footer .green {
+    text-decoration: line-through;
+    color: green;
+}
+
+footer .orange {
+    text-decoration: line-through;
+    color: orange;
+}
+
+.second-footer {
+    z-index: 1;
+}
+
+
+.card .red {
+    text-decoration: line-through;
+    color: red;
+}
+
+.card .green {
+    text-decoration: line-through;
+    color: green;
+}
+
+.card .orange {
+    text-decoration: line-through;
+    color: orange;
+}
+

@@ -1,0 +1,85 @@
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer h1 {
+    font-family: Recursive;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#333333;
+}
+
+footer .icons {
+    max-width: 85%;
+    overflow: hidden;
+    display: flex;
+    margin: 3px;
+}
+
+footer .red {
+    text-decoration: line-through;
+    color: red;
+}
+
+footer .green {
+    text-decoration: line-through;
+    color: green;
+}
+
+footer .orange {
+    text-decoration: line-through;
+    color: orange;
+}
+
+.footer2 {
+    z-index: 1;
+}
+
+/*MESSAGES*/
+
+.message {
+    width: 100vw;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 70px;
+    z-index: 1;
+}
+
+.message p {
+    width: 85%;
+    height: auto;
+    font-family: Recursive;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+}
+
+.message h2 {
+    margin-bottom: 5px;
+    font-family: Recursive;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+}
